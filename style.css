@@ -10,14 +10,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
 /* main */
 body {
-    width: 100%;
+    max-width: 100%;
     min-height: 100vh;
     margin: 0;
     padding: 0;
     background-color: hsl(212, 45%, 89%);
-    display: flex;
+    display:flex;
     flex-direction: column;
     gap: 2rem;
     align-items: center;
@@ -25,11 +31,7 @@ body {
  
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    /* box-sizing: border-box; */
-}
+
 
 .container {
     max-width: 550px;
@@ -53,9 +55,10 @@ body {
 
 .image {
     width: 50%;
-    height: 50%;
+    height:50%;
     display: block;
     overflow: hidden;
+    border:10px ;
 }
 .image mobile-img {
     display: none;
